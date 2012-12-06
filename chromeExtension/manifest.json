@@ -1,0 +1,19 @@
+{
+   
+    "manifest_version": 2,
+    "name": "CSS Beautify for Google Chrome™",
+    "version" : "1.0.0",
+    "description": "automatically formats your style to be consistent and easy to read",
+    "homepage_url": "http://cssbeautify.com/",
+    "icons": {
+        "48": "icon48.png"
+    },
+    "content_scripts": [
+      {
+	"matches": [ "http://*/*.css*", "https://*/*.css*", "ftp://*/*.css", "file:///*.css" ],
+        "js": ["cssbeautify.js", "app.js"],
+        "css": ["app.css"],
+        "run_at":"document_end"
+      }
+    ]
+}

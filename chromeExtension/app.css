@@ -1,0 +1,5 @@
+
+.panel{font:14px/1.6 Consolas, "Liberation Mono", Courier, monospace;padding:18px;background: #fffad4;border: 1px solid orange;border-radius:4px;position:fixed;top:15px;right:15px;}
+.panel p{margin:0 0 10px;}
+.panel small{display:block;font-size:12px;}
+.panel button{margin-right:12px;font:16px Consolas, "Liberation Mono", Courier, monospace;}
